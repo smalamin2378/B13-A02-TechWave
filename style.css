@@ -17,7 +17,8 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-     border-bottom: 1px solid rgb(86, 85, 85);  
+    padding-top:20px;
+    border-bottom: 1px solid rgb(86, 85, 85);  
 }
 
 
@@ -54,7 +55,8 @@ nav{
     color: #FFFFFF;
     font-weight: 600;
     padding:12px, 40px,16px, 12px;
-     border: none;
+    border: none;
+    align-items: center;
  }
 
  .btn:hover {
@@ -66,12 +68,85 @@ nav{
  /* navigation bar end */
 
 
+
  /* hero Part Start  */
- 
-
- 
 
 
+ /* .hero-container{
+    height:650px;
+    background-image:url(./assets/hero-bg.png);
+ }
+
+ .hero-content .rounded{
+    width:300px;
+    height:300px;
+}
+/* .hero-content .mic{
+    width:200px;
+    height:200px;
+ } */
+ /* .hero-content span{
+    width: 70px;
+    height:40px;
+    background-color:#00FF88;
+    border-radius:1000px;
+    font-weight: 600;
+    color: black;
+    font-size:12px;
+    padding:6px 8px;
+    display: inline-block;
+
+ }
+
+ .pin{
+    height:15px;
+    width:15px;
+    padding:2px;
+   
+ } */
+  
+ .podcast-section{
+    background-color:#1A0B2E;
+    min-height:400px;
+ }
+
+ .podcast{
+    text-align: center;
+    
+ }
+ .podcast h2{
+    color: #FFFFFF;
+    font-size:35px;
+    font-weight: bold;
+    padding-top: 50px;
+    padding-bottom: 16px;
+ }
+ #alon{
+    padding-top:30px;
+     border-bottom: 1px solid rgb(86, 85, 85);
+
+ }
+ .podcast p{
+    color: #f2efef;
+    font-size:12px;
+    /* gap:16px; */  
+ }
+
+.rating-box{
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+}
+.rating-box h1{
+    text-align: center;
+    padding-top:80px;
+    color:#00FF88;
+    font-size:40px;
+}
+.rating-box p{
+   color:#FFFFFF;
+   font-size:12px; 
+}
 
 
 
