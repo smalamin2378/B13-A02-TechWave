@@ -1,4 +1,35 @@
 @media screen and (max-width:576px){
+    .menu{
+    display:none; 
+ }
+ .btn{
+    display: none;
+ } 
+ #ham{
+   margin-right:20px;
+   display:block;
+ }
 
+ .text-white{
+    padding-left:15px;
+ }
+ .podcast h2{
+     font-size:28px;
+     font-weight: bold;
+     padding-top: 30px;
+}
+.rating-box{
+   flex-wrap: wrap;
+   justify-content: center;
+    gap: 20px;
+}
+.rating-box > div{
+    flex: 0 0 40%;
+    align-items: center;
 }
     
+}
+
+@media screen and (min-width:993px) {
+   
+}

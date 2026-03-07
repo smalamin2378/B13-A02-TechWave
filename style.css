@@ -4,9 +4,9 @@
     box-sizing: border-box;
     font-family: "Inter", sans-serif;
 }
-header{
+.container-b{
      background-color:#1A0B2E;
-      padding-bottom:10px;
+      /* padding-bottom:10px; */
 }
  /* navigation bar start */
 
@@ -31,7 +31,7 @@ nav{
  .text-white{
     color: #FFFFFF;
     font-size:35px;
-    font-weight: bold;
+    font-weight: bold; 
  }
  .text-gradient{
    background: linear-gradient(90deg, #F7E93F 0%, #FB09B4 51%, #9100F8 100%);
@@ -45,6 +45,11 @@ nav{
     color: #FFFFFF;
     font-size:12px;
     font-weight: 200;
+ }
+
+ #ham{
+   margin-right:20px;
+   display: none;
  }
 
  .btn{
@@ -135,8 +140,9 @@ nav{
 .rating-box{
     display: flex;
     justify-content: center;
-    gap: 80px;
+    gap:80px;
 }
+
 .rating-box h1{
     text-align: center;
     padding-top:80px;
@@ -234,3 +240,62 @@ nav{
    align-items: flex-start;
 }
 /* end features-section */
+
+
+/* Featured Episodes section start */
+
+.episodes{
+ background: #070b1a;
+  padding: 60px 80px;
+}
+
+.episodes h2{
+    text-align: center;
+    color: #FFFFFF;
+    font-size:35px;
+    font-weight: bold;
+    padding-top: 50px;
+    margin-bottom: 40px;
+
+}
+.episode-grid{
+   max-width:60%;
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   gap: 30px;
+   margin: 0 auto;
+
+}
+
+.episode-card{
+   overflow: hidden;
+   border-radius:20px;
+   background: #351165;
+   padding-bottom:30px;
+   border: 3px solid transparent;
+   animation: borderRotate 4s linear infinite;
+}
+
+.episode-card h3{
+   color: #FFFFFF;
+   font-size:18px;
+   font-weight: 600;
+   padding: 16px 18px 10px;
+}
+
+.episode-card p{
+    color: #FFFFFF;
+     font-size:13px;
+     padding:0 18px;
+}
+
+.episode-card span{
+   color: #00FF88;
+   display: flex;
+   align-items: center;
+   gap:8px;
+   padding:10px;
+   font-size:16px;
+}
+/* Featured Episodes section end */
+
