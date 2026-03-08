@@ -10,8 +10,8 @@
 }
  /* navigation bar start */
 
-nav{
-    max-width:1350px;
+nav{width: 85%;
+    max-width:1200px;
     height:90px; 
     margin:0 auto;
     display: flex;
@@ -116,7 +116,11 @@ nav{
  }
 
  .podcast{
+   margin: 0 auto;
+   width: 60%;
     text-align: center;
+    line-height: 25px;
+
     
  }
  .podcast h2{
@@ -126,21 +130,21 @@ nav{
     padding-top: 50px;
     padding-bottom: 16px;
  }
- #alon{
+ #alon{ 
+   padding-bottom: 26px;
     padding-top:30px;
      border-bottom: 1px solid rgb(86, 85, 85);
-
  }
  .podcast p{
     color: #f2efef;
-    font-size:12px;
-    /* gap:16px; */  
+    font-size:12px; 
  }
 
 .rating-box{
     display: flex;
     justify-content: center;
     gap:80px;
+    padding-bottom:20px;
 }
 
 .rating-box h1{
@@ -165,7 +169,6 @@ nav{
 
 .features-section{
     background-color:#230E3D;
-    /* min-height:500px; */
 }
 
 .section-header h2 {
@@ -299,3 +302,66 @@ nav{
 }
 /* Featured Episodes section end */
 
+
+/* Host Episodes section start */
+
+.host{
+ background: #070b1a;
+  padding: 90px 0;
+}
+
+.host-titel{
+  text-align: center;
+  color: #FFFFFF;
+  font-size: 42px;
+  font-weight: 700;
+  margin-bottom: 45px;
+}
+.host-box img{
+   padding:40px;
+  
+}
+
+.host-box{
+   margin: 0 auto;
+    max-width:60%;
+   display: flex;
+   align-items: center;
+   background: #351165;
+   overflow: hidden;
+   border-radius:20px;
+   gap: 30px;
+   border: 3px solid transparent;
+   animation: borderRotate 4s linear infinite;
+}
+
+.host-info h3{
+   color: #FFFFFF;
+   font-size:20px;
+   font-weight: 600;
+   padding-bottom:13px ;
+}
+.host-info p{
+   color: #FFFFFF;
+   font-size:13px;
+   line-height: 25px;
+}
+
+.host-social{
+  display: flex;
+  gap: 10px;
+  margin-top:15px;
+}
+.host-social a{
+   width:36px;
+   height:36px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   border-radius:50%;
+   border:1px solid transparent;
+   background:
+    linear-gradient(#351165,#351165) padding-box,
+    linear-gradient(90deg,#ff00cc,#9d9a978d) border-box;
+}
+/* Host Episodes section end */
