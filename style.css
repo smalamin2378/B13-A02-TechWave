@@ -303,7 +303,7 @@ nav{width: 85%;
 /* Featured Episodes section end */
 
 
-/* Host Episodes section start */
+/* Host  section start */
 
 .host{
  background: #070b1a;
@@ -364,4 +364,58 @@ nav{width: 85%;
     linear-gradient(#351165,#351165) padding-box,
     linear-gradient(90deg,#ff00cc,#9d9a978d) border-box;
 }
-/* Host Episodes section end */
+/* Host  section end */
+
+/* footer section start */
+
+ .footer-logo{
+   text-align: center;
+   font-size: 50px;
+   font-weight: bolder;
+    color: #FFFFFF;
+}
+ .footer-gradient{
+   background: linear-gradient(90deg, #F7E93F 0%, #FB09B4 51%, #9100F8 100%);
+   -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  display: inline-block;
+ }
+
+.footer-section{
+   background-image: url(./assets/footer-bg.png);
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center;
+   width: 100%;
+   padding-top:90px;
+   padding-bottom:120px;
+}
+
+.footer-icon{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap:30px;
+   padding-top:25px;
+  
+}
+.footer-icon a{
+   display: flex;
+   align-items: center;
+   gap: 8px;
+   text-decoration: none;
+   color: rgba(251, 249, 249, 0.738);
+   font-size: 13px;
+}
+.footer-icon  img{
+   width:18px;
+   height:18px;
+}
+.footer-copy{
+ color: #847f7f;
+ font-size: 16px;
+ text-align: center;
+ padding-top:70px;
+}
+/* footer section end */
