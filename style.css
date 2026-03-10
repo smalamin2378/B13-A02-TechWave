@@ -300,6 +300,9 @@ nav{width: 85%;
    padding:10px;
    font-size:16px;
 }
+iframe{
+   width: 100%;
+}
 /* Featured Episodes section end */
 
 
@@ -314,7 +317,7 @@ nav{width: 85%;
   text-align: center;
   color: #FFFFFF;
   font-size: 42px;
-  font-weight: 700;
+  font-weight:bold;
   margin-bottom: 45px;
 }
 .host-box img{
@@ -398,6 +401,8 @@ nav{width: 85%;
    justify-content: center;
    gap:30px;
    padding-top:25px;
+   flex-wrap: wrap;
+   padding: 25px 30px;
   
 }
 .footer-icon a{
